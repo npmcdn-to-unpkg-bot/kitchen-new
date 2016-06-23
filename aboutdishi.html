@@ -1,0 +1,105 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amanda's Kitchen</title>
+    <!--<link rel="stylesheet" href="css/foundation.css" />-->
+      <link href='https://fonts.googleapis.com/css?family=Dancing+Script' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/foundation/6.1.2/foundation.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/motion-ui/1.1.1/motion-ui.min.css" />
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/app.css" />
+  </head>
+  <body>
+       <div class="page-overlay"></div>
+      <div class="row main">
+      <!-------Top level navigation------->
+      <header class="header">
+          <!--mobile menu-->
+          <div class="title-bar" data-responsive-toggle="example-menu" data-hide-for="medium">
+            <button class="menu-icon" type="button" data-toggle></button>
+                <div class="title-bar-title">Menu</div>
+              <div class="title-bar-right">
+                <a class="add-item" data-toggle="addItemModal"><i class="fa fa-pencil-square fa-lg"></i></a>
+                <a class="search-item"><i class="fa fa-search fa-lg"></i></a>
+              </div>
+          </div>
+        <!--   Visible menu        -->
+          <div class="top-bar" id="example-menu">
+              <div class="top-bar-left">
+                <ul class="dropdown vertical medium-horizontal menu" data-dropdown-menu>
+                  <li class="menu-text">
+                      DISHI
+                  </li>
+                  <li>
+                    <a href="#">Order</a>
+                  </li>
+                  <li><a href="testfile.html">Discover</a></li>
+                  <li><a href="#">Kitchens</a></li>
+                </ul>
+              </div>
+              <div class="top-bar-right">
+                <ul class="dropdown menu" data-dropdown-menu>
+                  <li>
+                    <a href="#"><div class="user-iconPicture"></div>{{user.name}}</a>
+                    <ul class="menu vertical">
+                      <li><a href="#">Settings</a></li>
+                      <li><a href="#">Feedback</a></li>
+                      <li><a href="#">Logout</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+          </div>
+      </header>
+        <section class="general-banner">
+            <img src="img/static-page-imgs/wood.jpg"/>
+            <div class="row">
+            <div class="large-3 small-3 small-3 img-left">
+                <img class="flip-180" src="img/static-page-imgs/spice_bar_chart1.png"/>
+            </div>
+            <div class="large-3 small-3 small-3 img-right">
+                <img src="img/static-page-imgs/spoons-spices.png"/>
+            </div>
+            <div class="general-banner-userProfileData">
+                <div class="general-banner-userInfo">
+                    <h5 class="about-header">About Dishi</h5>
+                    <p>The best community for people who are passionate about food.</p>
+                </div>
+            </div>
+            </div>    
+          </section>
+          <section class="about-info">
+            <div class="large-3 medium-3 small-3 card-contentPadding large-centered small-centered medium-centered">
+                <div class="about-tabs">
+                <ul class="tabs" data-tabs id="example-tabs">
+                        <li class="tabs-title is-active"><a href="#about" aria-selected="true" class="k-Fmenuinner_item">
+                            <span class="k-link">About</span><br>
+                            </a></li>
+                        <li class="tabs-title"><a href="#team" class="k-inner_item">
+                            <span class="k-link">Meet the Team</span><br>
+                            <!--<span class="k-link-value">5</span>-->
+                            </a></li>
+                      </ul>
+                </div>    
+            </div>
+              <div class="tabs-content" data-tabs-content="example-tabs">
+                  <div class="tabs-panel is-active" id="about">
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.</p>
+                  </div>
+                  <div class="tabs-panel" id="team">
+                    <h5>A commited group of superheroes</h5>
+                  </div>
+                </div>
+          </section>
+         </div>      
+    <script src="js/vendor/jquery.min.js"></script>
+    <script src="js/vendor/what-input.min.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>                    

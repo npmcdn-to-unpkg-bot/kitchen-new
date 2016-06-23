@@ -1,0 +1,191 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Settings</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/foundation/6.1.2/foundation.min.css"> 
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400' rel='stylesheet' type='text/css'>  
+    <link rel="stylesheet" href="css/app.css"/>
+    <link rel="stylesheet" href="css/settings.css"/>
+  </head>
+  <body>
+      
+          <header class="header">
+          <!--mobile menu-->
+          <div class="title-bar" data-responsive-toggle="example-menu" data-hide-for="medium">
+            <button class="menu-icon" type="button" data-toggle></button>
+                <div class="title-bar-title">Menu</div>
+              <div class="title-bar-right">
+                <a class="add-item" data-toggle="addItemModal"><i class="fa fa-pencil-square fa-2x"></i></a>
+                <a class="search-item"><i class="fa fa-search fa-2x"></i></a>
+              </div>
+          </div>
+        <!--   Visible menu        -->
+          <div class="top-bar" id="example-menu">
+              <div class="top-bar-left">
+                <ul class="dropdown vertical medium-horizontal menu" data-dropdown-menu>
+                  <li class="menu-text">
+                      DISHI
+                  </li>
+                  <li>
+                    <a href="eat.html">Order</a>
+                  </li>
+                  <li><a href="discover.html">Discover</a></li>
+                  <li><a href="original-in.html">Kitchens</a></li>
+                </ul>
+              </div>
+              <div class="top-bar-right">
+                <ul class="menu">
+                  <li><a class="search-item" href="#"><i class="fa fa-search fa-lg"></i></a></li>
+                  <li><a class="add-item" data-toggle="addItemModal"><i class="fa fa-pencil-square fa-2x"></i></a></li>
+                  <li class="btn"><a class="button inv" href="#">Invite</a></li>
+                </ul>
+              </div>
+          </div>
+      </header>
+    <div class="row">  
+      <h5>Settings</h5>
+      <div class="row">
+          <div class="large-3 columns settings-navHolder">
+            <div class="settings-navigation">
+                <nav class="settings-nav">
+                    <ul class="settings-navList">
+                        <a href="#" class="settings-navigationLink"><li class="settings-navListItem">Account Basics</li></a>
+                        <a href="#" class="settings-navigationLink"><li class="settings-navListItem">Profile</li></a>
+                        <a href="#" class="settings-navigationLink"><li class="settings-navListItem">Password Settings</li></a>
+                        <a href="#" class="settings-navigationLink"><li class="settings-navListItem">Kitchen settings</li></a>
+                    </ul>
+                </nav>  
+           </div>
+          </div>
+        <div class="large-7 columns end">
+            <div class="settings-formHolder settings-accountBasics">
+                <h3 class="settings-title"><strong>Account</strong></h3>
+                <hr class="margin">
+                <form class="account-settingsForm">
+                    <label><strong>Username</strong>
+                        <input type="text"> 
+                    </label>
+                    <hr class="margin">
+                    <label><strong>Email</strong>
+                        <input type="email">
+                    </label>
+                    <hr class="margin">
+                        <div class="gender">
+                            <label><strong>Gender</strong>
+                                <div class="gender-radio">
+                                    <input type="radio"><label><strong>Male</strong></label>
+                                    <input type="radio"><label><strong>Female</strong></label>
+                                </div>    
+                        </label>        
+                        </div>    
+                    <hr class="margin">
+                    <label><strong>Country</strong>
+                        <select>
+                            <option value="Kenya">Kenya</option>
+                            <option value="Kenya">Uganda</option>
+                            <option value="Kenya">Tanzania</option>
+                        </select>
+                    </label>
+                </form>
+            </div>
+            <div class="settings-formHolder settings-profileSettings">
+                <h3 class="settings-title">Profile</h3>
+                <form>
+                    <label><strong>Profile picture</strong>
+                        <div class="profile-image">
+                            <ul class="kitchen-logo photo">
+                            <li class="settings-kitchenLogo">
+                                <div class="upload-picture"><i class="fa fa-camera-retro fa-2x "></i></div>
+                            </li>
+                            <li class="settings-kitchenLogo">
+                                <label for="exampleFileUpload" class="button">Upload picture</label>
+                                <input type="file" id="exampleFileUpload" class="show-for-sr"> 
+                            </li>
+                        </ul>
+                        </div>
+                    </label>
+                    <label><strong>Name</strong>
+                        <input type="text">
+                    </label>
+                    <hr class="margin">
+                    <label><strong>About</strong>
+                        <textarea rows="5" placeholder="Tell people about yourself"></textarea>
+                    </label>
+                    <hr class="margin">
+                    <label><strong>Website</strong>
+                        <input type="text">
+                    </label>
+                </form>
+            </div>
+            <div class="settings-formHolder settings-kitchenSettings">
+                <h3 class="settings-title">Kitchen</h3>
+                <label><strong>Kitchen Logo</strong>
+                    <div class="kitchen-profile-image">
+                        <ul class="kitchen-logo photo">
+                            <li class="settings-kitchenLogo">
+                                <div class="upload-picture"><i class="fa fa-camera-retro fa-2x "></i></div>
+                            </li>
+                            <li class="settings-kitchenLogo">
+                                <label for="exampleFileUpload" class="button">Upload logo</label>
+                                <input type="file" id="exampleFileUpload" class="show-for-sr"> 
+                            </li>
+                        </ul>
+                    </div>
+                </label>
+                <hr class="margin">
+                <label>
+                    <input type="text" placeholder="Kitchen name">
+                </label>
+                <hr class="margin">
+                <label>
+                    <select>
+                        <option value="bakery" disabled selected>Type of kitchen</option>
+                        <option value="fruits">Fruits</option>
+                        <option value="grill">Grill</option>
+                    </select>
+                </label>
+                <hr class="margin">
+                <label>
+                    <textarea rows="5" placeholder="Tell you new community about what's amazing about you"></textarea>
+                </label>
+                <hr class="margin">
+                <label>
+                    <textarea rows="2"></textarea>
+                </label>
+                <hr class="margin">
+                <label>
+                    <textarea rows="4" placeholder="How do you charge for delivery"></textarea>
+                </label>
+            </div>
+            <!--<div class="settings-formHolder settings-passwordSettings">
+                <h3 class="settings-title">Set password</h3>
+                <hr class="divide">
+                <input type="password" placeholder="Old password">
+                    <hr class="divide">
+                <input type="password" placeholder="New password">
+                    <hr class="divide">
+                <input type="password" placeholder="Confirm password">
+            </div>-->
+            <div class="settings-actionButtons">
+                <div class="settings-actionBtns settings-cancelBtn">
+                    <a class="button cancel-settings" href="#">Cancel</a>
+                </div>
+                <div class="settings-actionBtns settings-saveBtn">
+                    <a class="button save-settings" href="#">Save settings</a>
+                </div>
+            </div>
+        </div>
+      </div>
+      </div>
+    <script src="js/vendor/jquery.min.js"></script>
+    <script src="js/vendor/what-input.min.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script src="js/app.js"></script>
+  
+  </body>
+</html>      

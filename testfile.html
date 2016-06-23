@@ -1,0 +1,180 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foundation | Welcome</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/foundation/6.1.2/foundation.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Dancing+Script' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/motion-ui/1.1.1/motion-ui.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/app.css" />
+    <link rel="stylesheet" href="css/test.css" />
+</head>
+
+<body>
+    <div class="page-overlay"></div>
+    <header class="header">
+        <!--mobile menu-->
+        <div class="title-bar" data-responsive-toggle="example-menu" data-hide-for="medium">
+            <button class="menu-icon" type="button" data-toggle></button>
+            <div class="title-bar-title">Menu</div>
+            <div class="title-bar-right">
+                <a class="add-item" data-toggle="addItemModal"><i class="fa fa-pencil-square fa-2x"></i></a>
+                <a class="search-item"><i class="fa fa-search fa-2x"></i></a>
+            </div>
+        </div>
+        <!--   Visible menu        -->
+        <div class="top-bar" id="example-menu">
+            <div class="top-bar-left">
+                <ul class="dropdown vertical medium-horizontal menu" data-dropdown-menu>
+                    <li class="menu-text">
+                        DISHI
+                    </li>
+                    <li>
+                        <a href="#">Order</a>
+                    </li>
+                    <li><a href="testfile.html">Discover</a></li>
+                    <li><a href="#">Kitchens</a></li>
+                </ul>
+            </div>
+            <div class="top-bar-right">
+                <ul class="menu">
+                    <li><a class="search-item" href="#"><i class="fa fa-search fa-lg"></i></a></li>
+                    <li><a class="add-item" data-open="addItemModal"><i class="fa fa-pencil-square fa-2x"></i></a></li>
+                    <li class="btn"><a class="button inv" data-toggle="inviteModal">Invite</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <p><a data-toggle="commentModal" class="overlay-trigger">Click me for a full-screen modal</a></p>
+
+    <div class="full reveal" id="commentModal" data-reveal>
+        <div class="row comments-modal">
+            <div class="comments-contentHolder">
+                <header class="comments-header">
+                    <h6><strong>Classic macoroni salad</strong></h6>
+                    <div class="comments-header-left">
+                        <div class="card-kitchenImage">
+                    </div><span>By Chef Amanda</span></div>
+                    <div class="comments-header-right">
+                        <div class="card-kitchenImage"></div>
+                    </div>
+                </header>
+                <section class="comments-body">
+                    <div class="comments-body--image">
+                        <div class="comments-image">
+                            <img src="img/recipe4.jpg"/>
+                        </div>
+                    </div>
+                    <div class="comments-body--ingredients">
+                        <h5>Ingredients</h5>
+                        <ul class="comments-ingredientContainer">
+                            <li class="comments-ingredientItem"><div class="tag">{{Onions}}</div></li>
+                            <li class="comments-ingredientItem"><div class="tag">{{Onions}}</div></li>
+                            <li class="comments-ingredientItem"><div class="tag">{{Onions}}</div></li>
+                            <li class="comments-ingredientItem"><div class="tag">{{Onions}}</div></li>
+                            <li class="comments-ingredientItem"><div class="tag">{{Onions}}</div></li>
+                           
+                            
+                        </ul>
+                    </div>
+                    <div class="comments-body--howToPrepare">
+                        <h5>How to prepare</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu </p>
+                        <div class="comments-byWhoDetails">
+                            <div class="card-chefImage"></div>
+                            <p>By Chef {{ chefusername}}</p>
+                        </div>
+                        <div class="comments-box">
+                            <div class="comment-textarea">
+                            <form class="comments-textarea">
+                                <textarea class="comment-input"id="comment" placeholder="add comment"></textarea>
+                            </form>
+                            </div>
+                            <div class="comments-ratings card-dishRatings">
+                                <div class="ratings card-likes">
+                                    <a href="#"><i class="fa fa-heart-o"></i><span class="likes-counter counter">300</span></a>
+                                </div>
+                                <div class="ratings card-orders">
+                                    <a href="#"><i class="fa fa-bookmark-o"></i><span class="dishes-counter counter">300</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="comments-body--commentAreaDisplay"></div>
+                </section>
+
+                <button class="close-button" data-close aria-label="Close reveal" type="button">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+        </div>
+    </div>
+ <p><a data-toggle="orderModal" class="overlay-trigger">Click me for a full-screen modal</a></p>    
+ <div class="full reveal order-popup" id="orderModal" data-reveal>
+     <div class="row order-modal">
+        <div class="card-kitchenName">
+            <div class="card-kitchenImage"></div>
+            <span class="card-kitchenImageDetails">
+                        <a href="#" class="card-kitchen-link"><h6 class="details"><strong>Amanda's Kitchen</strong></h6></a>
+                        <p class="details">Food made with love</p></span>
+         </div>
+     <div class="card-dishPicture card-modalOrderPicture">
+        <figure>
+            <img src="img/recipe.jpg"/> 
+        </figure>
+    </div>
+     <div class="card-dishOrder card-contentPadding">
+        <h5 class="card-contentHeading">{{Dish Title}}</h5>
+        <h6>Order Now</h6>
+        <i class="fa fa-phone"></i>: <a href="tel">0722799545</a>
+        <p>Plates remaining : 20/25</p>
+     </div>
+     <div class="card-chefDetails">
+         <div class="card-chefImage"></div>
+         <span class="card-chefLink"><a href="#"><h5>By: Chef Amanda</h5></a></span>
+     </div>
+     <div class="comments-box">
+       
+       <div class="comments-ratings card-dishRatings">
+           <div class="ratings card-likes">
+               <a href="#"><i class="fa fa-heart-o"></i><span class="likes-counter counter">300</span></a>
+           </div>
+           <div class="ratings card-orders">
+               <a href="#"><i class="fa fa-bookmark-o"></i><span class="dishes-counter counter">300</span></a>
+           </div>
+       </div>
+         <div class="comment-textarea">
+       <form class="comments-textarea">
+           <textarea class="comment-input"id="comment" placeholder="add comment"></textarea>
+       </form>
+       </div>
+      </div> 
+    <button class="close-button" data-close aria-label="Close modal" type="button">
+        <span aria-hidden="true">&times;</span>
+    </button>
+    </div>     
+</div>
+
+    <script src="https://cdn.jsdelivr.net/foundation/6.1.2/foundation.min.js"></script>
+    <script src="js/vendor/jquery.min.js"></script>
+    <script src="js/vendor/what-input.min.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script src="js/app.js"></script>
+    <script>
+        
+        $(function(){
+            $('#comment').css('overflow', 'hidden').autogrow();}
+        });
+        $('.overlay-trigger').click(function(){
+           $('.page-overlay').show(); 
+        });
+    </script>
+</body>
+
+</html>

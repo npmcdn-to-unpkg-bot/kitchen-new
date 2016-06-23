@@ -1,0 +1,130 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amanda's Kitchen</title>
+    <!--<link rel="stylesheet" href="css/foundation.css" />-->
+      <link href='https://fonts.googleapis.com/css?family=Dancing+Script' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/foundation/6.1.2/foundation.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/motion-ui/1.1.1/motion-ui.min.css" />
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/app.css" />
+  </head>
+  <body>
+       <div class="page-overlay"></div>
+     
+      <!-------Top level navigation------->
+      <header class="header">
+          <!--mobile menu-->
+          <div class="title-bar" data-responsive-toggle="example-menu" data-hide-for="medium">
+            <button class="menu-icon" type="button" data-toggle></button>
+                <div class="title-bar-title">Menu</div>
+              <div class="title-bar-right">
+                <a class="add-item" data-toggle="addItemModal"><i class="fa fa-pencil-square fa-lg"></i></a>
+                <a class="search-item"><i class="fa fa-search fa-lg"></i></a>
+              </div>
+          </div>
+        <!--   Visible menu        -->
+          <div class="top-bar" id="example-menu">
+              <div class="top-bar-left">
+                <ul class="dropdown vertical medium-horizontal menu" data-dropdown-menu>
+                  <li class="menu-text">
+                      DISHI
+                  </li>
+                  <li>
+                    <a href="order.html">Order</a>
+                  </li>
+                  <li><a href="discover.html">Discover</a></li>
+                  <li><a href="original-in.html">Kitchens</a></li>
+                  <li><a href="#">Blog</a></li>
+                </ul>
+              </div>
+              <div class="top-bar-right">
+                <ul class="dropdown menu" data-dropdown-menu>
+                  <li>
+                    <a href="#" class="user-linkNavItem">
+                        <ul>
+                            <li><div class="user-iconPicture"></div></li>
+                            <li>{{user.name}}</li>
+                        </ul></a>
+                    <ul class="menu vertical">
+                      <li><a href="#">Settings</a></li>
+                      <li><a href="#">Feedback</a></li>
+                      <li><a href="#">Logout</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+          </div>
+      </header>
+        <section class="general-banner">
+            <div class="general-banner-userProfileData">
+                <div class="general-banner-userInfo">
+                    <h5>Open a Kitchen</h5>
+                </div>
+            </div>
+          </section>
+      <div class="row">
+        <form class="form-signIn authentication">
+                       <p>Sign in with?</p>
+                    <ul>
+                        <li>
+                            <div class="social-icons">
+                                <a href="#"><img src="dishi-icons/facebook.png" /></a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="social-icons">
+                                <a href="#"><img src="dishi-icons/googleplus.png" /></a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="social-icons">
+                                <a href="#"><img src="dishi-icons/twitter.png" /></a>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="large-12 columns divider">
+                        <p class="decorated"><span>OR</span></p>
+                    </div>
+                    <div class="large-12 columns">
+                        <label>
+                            <input type="text" placeholder="Username/Email">
+                        </label>
+                        <label class="text-right"><a class="password-reset" href="#">Forgot password?</a>
+                            <input type="password" placeholder="Password">
+                        </label>
+                    </div>
+                    <div class="large-12 columns signIn-btn">
+                        <a class="button " href="#">Sign up</a>
+                        <div class="round-button"><div class="round-button-circle"><a href="http://example.com" class="round-button">Button!!</a></div></div>
+                        <p>Already have an account? <a href="#">Sign in</a></p>
+                    </div>
+                    </form>
+          <form class="authentication">
+              <select>
+                    <option value="" disabled selected>Purpose of Kitchen</option>
+                    <option value="" >Purpose of </option>
+                    <option value="" > Kitchen</option>
+                    <option value="" >Purpose  Kitchen</option>
+              </select>
+              <input type="text" placeholder="Kitchen name">
+              <select>
+                <option value="" disabled selected>Kitchen type</option>
+                <option value="" >Kitchen type</option>
+                <option value="" > type</option>
+              </select>
+              <input type="text" placeholder="Area of operation">
+              <input type="text" placeholder="Delivery areas">
+          </form>
+      </div>
+       <script src="js/vendor/jquery.min.js"></script>
+    <script src="js/vendor/what-input.min.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>      

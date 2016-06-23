@@ -1,0 +1,84 @@
+body{
+    height: 2280px;
+    width: 100%;
+    background: #eee;
+}
+.gender {
+	padding: 1em;}
+    .gender-radio{margin-left: 1em;}
+.divide {
+	margin: 1em}
+    .settings-navigation {
+      width: 100%;
+      height: 100%;
+      padding: .9em;
+      margin: 1.2em 0;}
+    .settings-nav {
+      background-color: #fff;        
+	  border: 2px solid #9e9e9e;
+      border-radius: 5px;}
+    .settings-nav ul li{
+      padding: .5em;    
+	  display: block;}
+    .settings-navList {
+      margin: 0;}
+    .settings-navListItem {    
+       border-bottom: 1px solid #eee;}
+
+.photo > li:last-child{
+    position: relative;
+    left: 15%;
+}
+    .profile-image,.kitchen-profile-image {
+	position: relative;
+}
+.settings-formHolder {
+    background-color: #fff;
+    padding: .9em;
+	border: 1px solid #9e9e9e;
+    border-radius: 5px;
+    margin: 2em 0;}
+    .settings-title{
+      margin: 0 0 .5em 0;}
+    .account-settingsForm label {
+      margin: 10px;}
+    .settings-formHolder,[type='text'],[type='number'],[type='email'],[type='password']{
+      color: #ea5c22;
+      border-radius: 5px;}
+      select{
+        border-radius: 5px;}
+
+.settings-actionBtns >.button {
+    border-radius: 5px;
+    position: relative;
+    right: -535px;
+    display: inline-block;
+    margin:  0 15px;
+	width: 100%;}
+    .cancel-settings{
+      color: #757575;
+      border: 1px solid #9e9e9e;    
+      background-color: #e0e0e0;}
+    .settings-cancelBtn ,.settings-saveBtn {
+      margin: 0 15px;    
+      display: inline-block;} 
+    .cancel-settings:hover{
+      color: #212121;
+      background-color: #bdbdbd; }
+    .save-settings {
+	 background-color: #ea5c22;
+     color: #fff;}
+
+.kitchen-logo {
+	width: 100%;}
+    .kitchen-logo > li {
+      display: inline-block;}
+        .upload-picture {
+           padding:1.8em 0;
+           text-align: center;
+           display: block;    
+	       height: 80px;
+           width: 80px;
+           border: 1px solid #000;
+           border-radius: 100%;}
+.margin{margin: 10px 0;}
