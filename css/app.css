@@ -21,6 +21,10 @@ a:hover,a:focus{
     color: #ff7840;}
 .main {
 	background-color: #eee;}
+
+footer{text-align: center; background: #424242;padding: 2rem;}
+footer, h6{color: #eee;}
+.footer-link > .flex-column > a{color: #bdbdbd;}
 /**--------- Aligning Divs ---------**/
 .center-h {
     left: 50%;
@@ -96,7 +100,7 @@ img{width: 100%;height: 100%;background-size: cover;}
     position: relative;
     height: auto;
     min-height: 150px;
-    max-height: 450px;
+    max-height: 430px;
     overflow: hidden;}
     .general-banner-userProfileData { 
      position: absolute;
@@ -133,11 +137,14 @@ img{width: 100%;height: 100%;background-size: cover;}
 	  height: 90px;
       width: 90px;
       border-radius: 100%;}
-    .g-edit-icon {
+    .g-edit-icon {    
 	  position: absolute;
       top: 0;
-      right: 0;
-      }
+      right: 0;}
+    .g-edit-icon > a{
+      color: #fafafa;}
+.g-edit-icon.g-ico > a{color: #000;}
+        
 
 /* Small only */
 @media screen and (max-width: 39.9375em) {
@@ -328,6 +335,7 @@ section.about-info {
     justify-content: center;
     width: 100%;
     margin: auto; }
+.flex-column{margin: 5px;padding: 4px;display: block;}
 #mobile-about{display: none;}
 /* headlines with lines */
 
@@ -902,7 +910,7 @@ section.about-info {
 	background-color: transparent;
     color: #ea5c22;
     border: 1.5px solid #ea5c22;
-    width: 100%;}
+    /*width: 100%;*/}
    .button:hover{
       color: #fff;
       background-color: #ea5c22;}
@@ -910,16 +918,20 @@ section.about-info {
       background: #fff;
       color: #ea5c22; }
     .button-follow {
-	 width: 30em;
+     background-color: transparent;
+     color: #fafafa;    
+     border: 1.5px solid #fafafa;    
+	 width: 8em;
+     padding-right: 23px;    
 }
 .button--float{
     text-align: center;
     position: fixed;
-    color: #000;
+    background: #ea5c22;
     border-radius: 100%;
-    height: 70px;
-    width: 70px;
-    z-index: 99999;
+    height: 60px;
+    width: 60px;
+    z-index: 10;
     right: 50px;
     bottom: 20px;}
     .button--float > .fa{}
