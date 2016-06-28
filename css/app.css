@@ -773,11 +773,17 @@ section.about-info {
         /* Large only */
         @media screen and (min-width: 64em) and (max-width: 74.9375em) {}
 
-
-    .c-s{/*card secondary*/
+    /*card-kitchenImage large size modifier class*/
+    .l-image{
+        height: 130px;
+        width: 130px;
+        border-radius: 100%;}
+    /*card secondary*/
+    .c-s{
     margin:10px;
     width: 350px;}
-    .c-f{/* card follow*/
+    /* card follow*/
+    .c-f{
     width: 250px;    
 }
     .kitchen-summary {
@@ -792,6 +798,10 @@ section.about-info {
 }
     .kitchen-summary > ul{margin: 0;padding: 0;}
     foll.kitchen-summary > ul > li{margin: 0;padding: 0;}
+
+.mgn{margin: 5px;}
+.kitchens{background: #ea5c22;text-align: center; padding: 5rem;}
+.kitchens > h3 {font-family: 'Dancing Script', cursive; }
 
 
 .watcher-pictureHolder {
