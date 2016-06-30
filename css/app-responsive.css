@@ -203,11 +203,12 @@ section.about-info {
     background-color: #fafafa;
     position: relative;
 	height: auto;
+    width: 100%;
     min-height: 71.5px;
     padding: 2px;
-    border-bottom: 1px solid #9e9e9e;
-    padding: 0;
-    margin: 0 0 1px 0;
+    border-bottom: 0px solid #fff;
+/*    padding: 0;*/
+    margin: 0;
 }
 
     #kitchen__logo {
@@ -224,8 +225,8 @@ section.about-info {
 
     #kitchen_menu_list{
         width: auto !important;
-        max-width: 750px;
-        min-width: 685px;
+/*        max-width: 750px;*/
+/*        min-width: 685px;*/
         height: 100%;
 
         padding: 0;
@@ -241,8 +242,7 @@ section.about-info {
     }
 
     ul.tabs#mykitchen-tabs li {
-
-        width: 20%;
+/*        width: 20%;*/
     }
 
     ul.tabs#mykitchen-tabs li a{
@@ -265,7 +265,7 @@ section.about-info {
         /* Large and up */
         @media screen and (min-width: 64em) {
             #kitchen_menu_list {
-                width: 750px !important;
+/*                width: 750px !important;*/
             }
         }
 
