@@ -131,7 +131,7 @@ img{width: 100%;height: 100%;background-size: cover;}
      top: 0;}
     .g-largeHolder {
 	  width: 400px;}
-    .kitchen-banner{min-height: 270px;background: #fafafa;position: relative; color: #f9f9f9;}
+    .kitchen-banner{max-height: 270px;background: #fafafa;position: relative; color: #f9f9f9;}
     .banner-shader{position: absolute;top: 0;left: 0;width: 100%;height: 100%;background: rgba(10,10,10,.5);}
     .kitchen-profImage {
 	  height: 90px;
@@ -761,7 +761,17 @@ section.about-info {
             }
         }
 
-
+.l-card{
+    background: #fff;
+    display: block;
+    height: 210px;
+    width: 1080px;
+    border: 1px solid silver;
+    margin: 1px;
+}
+.l-card .img{float: left; margin-right: 5px; height: 210px; width: 240px; overflow: hidden;}
+.l-card .img .content img{display: block;}
+.l-card .content{float: left; }
         /* Medium and up */
         @media screen and (min-width: 40em) {}
 
@@ -801,7 +811,7 @@ section.about-info {
 
 .mgn{margin: 5px;}
 .kitchens{background: #ea5c22;text-align: center; padding: 5rem;}
-.kitchens > h3 {font-family: 'Dancing Script', cursive; }
+.kitchens > h2 {font-family: 'Dancing Script', cursive; }
 
 
 .watcher-pictureHolder {
