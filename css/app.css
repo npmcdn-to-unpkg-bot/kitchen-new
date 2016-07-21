@@ -764,14 +764,15 @@ section.about-info {
 .l-card{
     background: #fff;
     display: block;
-    height: 210px;
+    height: auto;
     width: 1080px;
     border: 1px solid silver;
     margin: 1px;
+    overflow: hidden;
 }
-.l-card .img{float: left; margin-right: 5px; height: 210px; width: 240px; overflow: hidden;}
+/*.l-card .img{float: left; margin-right: 5px; height: 210px; width: 240px; overflow: hidden;}
 .l-card .img .content img{display: block;}
-.l-card .content{float: left; }
+.l-card .content{float: left; }*/
         /* Medium and up */
         @media screen and (min-width: 40em) {}
 
