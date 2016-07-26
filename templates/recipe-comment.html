@@ -1,0 +1,64 @@
+<div class="small reveal" id="recipeCommentModal" data-reveal>
+          <div class="row comments-modal">
+            <div class="comments-contentHolder">
+                <header class="comments-header">
+                    <h6><strong>Classic macoroni salad</strong></h6>
+                    <div class="comments-header-left">
+                        <div class="card-kitchenImage">
+                    </div><span>By Chef Amanda</span></div>
+                    <div class="comments-header-right">
+                        <div class="card-kitchenImage"></div>
+                    </div>
+                </header>
+                <section class="comments-body">
+                    <div class="comments-body--image">
+                        <div class="comments-image">
+                            <img src="img/recipe4.jpg"/>
+                        </div>
+                    </div>
+                    <div class="comments-body--ingredients">
+                        <h5>Ingredients</h5>
+                        <ul class="comments-ingredientContainer">
+                            <li class="comments-ingredientItem"><div class="tag">{{Onions}}</div></li>
+                            <li class="comments-ingredientItem"><div class="tag">{{Onions}}</div></li>
+                            <li class="comments-ingredientItem"><div class="tag">{{Onions}}</div></li>
+                            <li class="comments-ingredientItem"><div class="tag">{{Onions}}</div></li>
+                            <li class="comments-ingredientItem"><div class="tag">{{Onions}}</div></li>
+                        </ul>
+                    </div>
+                    <div class="comments-body--howToPrepare">
+                        <h5>How to prepare</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu </p>
+                        <div class="comments-byWhoDetails">
+                            <div class="card-chefImage"></div>
+                            <p>By Chef {{ chefusername}}</p>
+                        </div>
+                        <div class="comments-box">
+                            <div class="comment-textarea">
+                            <form class="comments-textarea">
+                                <textarea class="comment-input"id="comment" placeholder="add comment"></textarea>
+                            </form>
+                            </div>
+                            <div class="comments-ratings card-dishRatings">
+                                <div class="ratings card-likes">
+                                    <a href="#"><i class="fa fa-heart-o"></i><span class="likes-counter counter">300</span></a>
+                                </div>
+                                <div class="ratings card-orders">
+                                    <a href="#"><i class="fa fa-bookmark-o"></i><span class="dishes-counter counter">300</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="comments-body--commentAreaDisplay"></div>
+                </section>
+
+                <button class="close-button" data-close aria-label="Close reveal" type="button">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+        </div>
+
+            <button class="close-button" data-close aria-label="Close modal" type="button">
+                <span aria-hidden="true">&times;</span>
+            </button>
+      </div>
